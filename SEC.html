@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+</style>
+</head>
+<body>
+   
+<div class="container">
+  <h2>DYNAMIC LABEL</h2>
+  <p>we have created a Dynamic Label (By selecting the County Name)</p>
+  <p>select your country name that generate the Packing Details for the Product</p>                                        
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">SELECT YOUR COUNTRY
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a tabindex="-1" href="#"></p><P><a href="india.jpg">INDIA</a></li>
+      <li><a tabindex="-1" href="#"><a href="canada.jpg">CANADA</a></li>
+      <li class="dropdown-submenu">
+        <a class="test" tabindex="-1" href="#"><a href="usa.jpg">USA <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a tabindex="-1" href="#">BELGIUM</a></li>
+          <li><a tabindex="-1" href="#">NETHERLAND</a></li>
+          <li class="dropdown-submenu">
+            <a class="test" href="#">UNITED KINGDOM <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">COIMBATORE</a></li>
+              <li><a href="#">MADURAI</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+<a href="file:///C:/Users/sriram/Desktop/sudiv/f.html">HOME</a>
+
+<script>

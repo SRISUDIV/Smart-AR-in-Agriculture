@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<body>
+
+<!-- Navigation -->
+<nav class="w3-bar w3-black">
+  <a href="#home" class="w3-button w3-bar-item">Home</a>
+  <a href="#band" class="w3-button w3-bar-item"><a href="pp.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRODUCTS</a></a>
+  <a href="#tour" class="w3-button w3-bar-item"><a href="https://www.weatheronline.in/Netherlands.htm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WHEATER ONLINE REPORT</a>
+  <a href="#contact" class="w3-button w3-bar-item"><a href="fb.pdf">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Farmer's Handbook </a></a>
+</nav>
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="bayer icon.jpg"
+  style="width:100%">
+  <img class="mySlides" src="bayer products.jpg"
+  style="width:100%">
+  
+</section>
+
+<!-- Band Description -->
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide"><center>BAYER CROP SCIENCE</h2></center>
+  <p class="w3-opacity"><center><i>GREEN WORLD ! <BR> GREAT WEALTH!</i></p></center>
+  <p class="w3-justify"> <p><a href="file:///C:/Users/sriram/Desktop/sudiv/SEC.html#">DYNAMIC LABEL</a></p><P><a href="bayer qr scan.jpg"> SCAN ME</a> </p><BR> <p><a href="mm.html">FORMER SUPPORT</p></a><BR><p><a href="d2.html">TRACK MY ORDER</a></p><BR> <P><a href="cb.html">HELP</a></p><p><a href="https://www.cropscience.bayer.in/Contact-us">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>FEEDBACK/COMPLAINTS</a></p><BR><p><a href="n1.html">PRODUCT SECURITY/ANTI-COUNTERFEITING</a></p>
+</section>
+
+<script>
+// Automatic Slideshow - change image every 20 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
